@@ -145,19 +145,18 @@ export var Playground = () => {
         />
         <Box style={{ minWidth: 100 }} />
       </div>
+      <p>The Natural Order of Things</p>
       <div
         style={{
           ...rowStyle,
         }}
       >
-        <Box style={{ width: 50 }} />
-        <Box />
-        <Box style={{ width: 50 }} />
-        <Box
-          style={{ width: 30 + 10, background: 'black' }}
-        />
-        <Box style={{ flexBasis: 80 }} />
-        <Box style={{ minWidth: 100 }} />
+        <div style={{}}>0th</div>
+        <div style={{ order: 5 }}>1st</div>
+        <div style={{ order: 3 }}>2nd</div>
+        <div style={{ order: -1 }}>3rd</div>
+        <div style={{}}>4th</div>
+        <div style={{ order: 4 }}>5th</div>
       </div>
     </div>
   )
