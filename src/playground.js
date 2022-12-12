@@ -139,6 +139,7 @@ export var Playground = () => {
         }}
       >
         <Box style={{ width: 50 }} />
+        <Box style={{ width: 30 + 10 }} />
         <Box
           style={{ flexBasis: 80, borderRadius: '16px' }}
         />
@@ -150,9 +151,12 @@ export var Playground = () => {
         }}
       >
         <Box style={{ width: 50 }} />
+        <Box />
+        <Box style={{ width: 50 }} />
         <Box
-          style={{ flexBasis: 80, borderRadius: '16px' }}
+          style={{ width: 30 + 10, background: 'black' }}
         />
+        <Box style={{ flexBasis: 80 }} />
         <Box style={{ minWidth: 100 }} />
       </div>
     </div>
